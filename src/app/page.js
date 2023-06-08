@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 import Image from "next/image";
+=======
+>>>>>>> 1bce0903c88493c595719a4be5c339a8dbffb6e6
 
 export default function Home() {
   return (
