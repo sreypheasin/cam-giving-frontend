@@ -2,26 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-/* :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+/* background-color Homw page  */
+.home{
+    background-color: #F7F7F9;
+    width: auto;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.footer{
+    background: url("/img/Rectangle.png");
+    background-color: #F7F7F9;
+    height: 270px;
+left: 0px;
 }
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-} */
+.navbar{
+    justify-content: center;
+    background-color:  #FFFFFF;
+    top: 0;
+    position: sticky;
+}
